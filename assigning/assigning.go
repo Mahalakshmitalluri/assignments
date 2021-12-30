@@ -21,7 +21,30 @@ func Mult(){
 
 func Div(){ 
 	x := 28  // shorthand declaration is used here ,no need to define type ,as it takes given number as int type.
-	y := 56  
+	y := 25  
 	fmt.Println(x/y)
 }
 
+func Person1(){
+	var name string ="sasi"//variables are declared with a string name and integer value with defining the type.
+	var age int     = 21
+	fmt.Println(name,age)
+}
+
+func Person2(){
+	var name = "manju"//variables are declared with a string name and integer value but type is not defined but it  takes name and value and it recognises the type.
+	var age = 23
+	fmt.Println(name,age)
+}
+
+func Person3(){
+	name := "nandy" //  short hand declaration is ":=" is used to declare name and age and also takes the assigned value as integer or string.
+	age := 25   
+	fmt.Println(name,age)
+}
+
+func Person4(){  //function Person are created in here.
+	var name string //name and string are taken without declaring , string executes a blank value and int takes a zero value.
+	var age int 
+ fmt.Println(name,age)
+}
