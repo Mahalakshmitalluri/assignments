@@ -19,5 +19,6 @@ func main(){
     arithmeticoperators.Elf()
     arithmeticoperators.Elsa()
     arithmeticoperators.Snow()
-  
+    arithmeticoperators.Floatvalue()
+    
 }

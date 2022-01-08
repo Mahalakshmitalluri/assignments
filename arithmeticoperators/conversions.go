@@ -31,5 +31,9 @@ func Elsa(){
 
 func Snow(){
 	j := float64(e)+f//float32 value of e is converted to float64,but we can't convert float64 into float32. As , float32 storage is less from float64.
-	fmt.Println(j)//basically we can't go from higher storage to low storage convertions.
+	fmt.Println("the result is ",j)//basically we can't go from higher storage to low storage convertions.
 }
+
+/*func Tale(){ // The int8 is trying to store the value of int16 ,which overflows it ,gives the error value because it doesn't take all the int8 doesn't taka all the data of int16 into it.
+g := int8(a)+b
+}*/
